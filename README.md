@@ -95,6 +95,7 @@ A lightweight MLP-based task layer:
 - scikit-learn==1.0.2
 - mamba_ssm==1.1.3
 - causal-conv1d==1.1.1
+
 Install dependencies:
 
 ```
