@@ -88,12 +88,13 @@ A lightweight MLP-based task layer:
 
 ## 💻 Environment
 
-- torch==2.0.0
+- torch==torch==2.1.1+cu118
 - numpy==1.22.4
 - pandas==1.4.2
 - matplotlib==3.6.0
 - scikit-learn==1.0.2
-
+- mamba_ssm==1.1.3
+- causal-conv1d==1.1.1
 Install dependencies:
 
 ```
