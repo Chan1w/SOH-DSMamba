@@ -88,7 +88,7 @@ A lightweight MLP-based task layer:
 
 ## 💻 Environment
 
-- torch==torch==2.1.1+cu118
+- torch==2.1.1+cu118
 - numpy==1.22.4
 - pandas==1.4.2
 - matplotlib==3.6.0
