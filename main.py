@@ -23,7 +23,7 @@ task = 'SOH'
 battery = 'CALCE'
 class Args:
     def __init__(self):
-        self.model = 'S_Mamba'
+        self.model = 'DS_Mamba'
         # self.model = 'CNN_LSTM'
         self.model_id = '0_uncertain_S_Mamba_LSTM_{}#{}'.format(name,train_battery)
         self.task = task
@@ -81,3 +81,4 @@ exp.train()
 # exp.test(Time_record=False)
 
 torch.cuda.empty_cache()
+
